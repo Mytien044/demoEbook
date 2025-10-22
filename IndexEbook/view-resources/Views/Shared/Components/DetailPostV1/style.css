@@ -128,7 +128,9 @@
 
     .modules-grid {
         grid-template-columns: 1fr;
-        gap: 24px;
+        gap: 32px;
+        justify-content: center;
+        
     }
 
     .module-card:last-child {
