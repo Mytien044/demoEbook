@@ -37,80 +37,17 @@
 <div class="site-wrapper" id="top" bis_skin_checked="1">
     
 
-<!--HeaderBottom-->
-<div id="header-bottom"></div>
+<!--HeaderContact-->
+<div id="header-contact"></div>
 <script>
-  fetch('../3rds/3d-flipbook/components/HeaderBottom.html')
+  fetch('../3rds/3d-flipbook/components/HeaderContact.html')
     .then(response => response.text())
     .then(data => {
-      document.getElementById('header-bottom').innerHTML = data;
+      document.getElementById('header-contact').innerHTML = data;
     })
-    .catch(error => console.error('Lỗi khi tải HeaderBottom:', error));
+    .catch(error => console.error('Lỗi khi tải HeaderContact:', error));
 </script>
-<!--HeaderMobile-->
-<header class="mobile-header d-block d-lg-none pt--10 pb-md--10">
-    <div class="container" bis_skin_checked="1">
-        <div class="row align-items-sm-end align-items-center" bis_skin_checked="1">
-            <div class="col-md-4 col-7" bis_skin_checked="1">
-                <a href="/" class="site-brand">
-                    <img src="/IndexEbook/Designs/Images/logo-menu.png" alt="">
-                </a>
-            </div>
-            <div class="col-md-5 order-3 order-md-2" bis_skin_checked="1">
-                <nav class="category-nav">
-                    <div bis_skin_checked="1">
-                        <a href="javascript:void(0)" class="category-trigger">
-                            <i class="fa fa-bars"></i>Danh mục
-                        </a>
-                        <ul class="category-menu">
-                                    <li class="cat-item ">
-                                        <a href="/ebook/the-loai/1">Tiểu thuyết</a>
-                                    </li>
-                                    <li class="cat-item ">
-                                        <a href="/ebook/the-loai/2">Truyện và thơ ca dân gian</a>
-                                    </li>
-                                    <li class="cat-item ">
-                                        <a href="/ebook/the-loai/3">Tự truyện - Hồi ký</a>
-                                    </li>
-                                    <li class="cat-item ">
-                                        <a href="/ebook/the-loai/4">Truyện ngắn - Tản văn</a>
-                                    </li>
-                                    <li class="cat-item ">
-                                        <a href="/ebook/the-loai/5">Truyện thiếu nhi</a>
-                                    </li>
-                                    <li class="cat-item ">
-                                        <a href="/ebook/the-loai/6">Truyện trinh thám - Vụ án</a>
-                                    </li>
-                                    <li class="cat-item ">
-                                        <a href="/ebook/the-loai/7">Phóng sự</a>
-                                    </li>
-                                    <li class="cat-item ">
-                                        <a href="/ebook/the-loai/8">Phê bình văn học</a>
-                                    </li>
-                                    <li class="cat-item ">
-                                        <a href="/ebook/the-loai/9">Truyện tranh</a>
-                                    </li>
-                                    <li class="cat-item ">
-                                        <a href="/ebook/the-loai/10">Mỹ thuật - Âm nhạc</a>
-                                    </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-            <div class="col-md-3 col-5  order-md-3 text-right" bis_skin_checked="1">
-                <div class="mobile-header-btns header-top-widget" bis_skin_checked="1">
-                    <ul class="header-links">
-                        <li class="sin-link">
-                            <a href="javascript:" class="link-icon hamburgur-icon off-canvas-btn">
-                                <i class="ion-navicon"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</header><!--MenuAsideMobile-->
+<!--MenuAsideMobile-->
 <aside class="off-canvas-wrapper">
     <div class="btn-close-off-canvas" bis_skin_checked="1">
         <i class="ion-android-close"></i>
