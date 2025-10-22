@@ -217,7 +217,7 @@ nav {
 /* Media gallery */
 .media-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 16px;
 }
 .media-card {
@@ -308,6 +308,7 @@ section {
 .split-section .text-col .section-header {
   text-align: left;
   margin-bottom: 24px;
+  text-align: center;
 }
 .split-section .text-col {
   max-width: 680px;
@@ -745,7 +746,7 @@ section {
 /* Users */
 .users-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 28px;
   margin-top: 20px;
 }
@@ -1064,6 +1065,7 @@ section {
   }
   .section-title {
     font-size: 1.75rem;
+    
   }
   .hero-content h1 {
     font-size: 1.875rem;
