@@ -188,32 +188,64 @@
 </section>
 <section class="section books-section">
     <div class="container" bis_skin_checked="1">
+        <div class="row">
+      <!-- ===== Cột trái: Cây danh mục ===== -->
+      <div class="col-lg-3 col-md-4">
+        <div class="sidebar-wrapper">
+
+  <!-- ===== Thể loại ===== -->
+  <div class="accordion-item">
+    <button class="accordion-header">Thể Loại</button>
+    <ul class="accordion-content">
+      <li><a href="/ebook/the-loai/1">Tiểu thuyết (12)</a></li>
+      <li><a href="/ebook/the-loai/2">Truyện và thơ ca dân gian (4)</a></li>
+      <li><a href="/ebook/the-loai/3">Tự truyện - Hồi ký (2)</a></li>
+      <li><a href="/ebook/the-loai/4">Truyện ngắn - Tản văn (11)</a></li>
+      <li><a href="/ebook/the-loai/5">Truyện thiếu nhi (31)</a></li>
+      <li><a href="/ebook/the-loai/9">Truyện tranh (21)</a></li>
+      <li><a href="/ebook/the-loai/13">Cổ tích và Thần thoại (17)</a></li>
+    </ul>
+  </div>
+
+  <!-- ===== Tác giả ===== -->
+  <div class="accordion-item">
+    <button class="accordion-header">Tác Giả</button>
+    <ul class="accordion-content">
+      <li><a href="/ebook/tac-gia/1275">Ngô Tất Tố (2)</a></li>
+      <li><a href="/ebook/tac-gia/38978">Nguyên Ngọc (1)</a></li>
+      <li><a href="/ebook/tac-gia/39024">Bùi Giáng (1)</a></li>
+      <li><a href="/ebook/tac-gia/39469">Tú Phương (5)</a></li>
+    </ul>
+  </div>
+
+  <!-- ===== Ngôn ngữ ===== -->
+  <div class="accordion-item">
+    <button class="accordion-header">Ngôn Ngữ</button>
+    <ul class="accordion-content">
+      <li><a href="/ebook/ngon-ngu/1632">Tiếng Việt (110)</a></li>
+      <li><a href="/ebook/ngon-ngu/2282">Tiếng Anh (4)</a></li>
+    </ul>
+  </div>
+
+  <!-- ===== Nhà xuất bản ===== -->
+  <div class="accordion-item">
+    <button class="accordion-header">Nhà Xuất Bản</button>
+    <ul class="accordion-content">
+      <li><a href="/ebook/nha-xuat-ban/5540">Hồng Đức (11)</a></li>
+      <li><a href="/ebook/nha-xuat-ban/5544">Thanh niên (4)</a></li>
+      <li><a href="/ebook/nha-xuat-ban/5866">Nhà xuất bản Dân trí (88)</a></li>
+    </ul>
+  </div>
+</div>
+
+      </div>
+      <!-- Cột phải: Tiêu đề + danh sách sách -->
+      <div class="col-md-9">
         <h2 id="pageTitle" class="section-title">TẤT CẢ EBOOK</h2>
 
-        <!-- Bộ lọc -->
-        <div class="books-filter mb-4" bis_skin_checked="1">
-            <h3>Bộ lọc:</h3>
-            <div class="filter-options" bis_skin_checked="1">
-                <select id="categoryFilter" class="btn btn-outline-primary">
-                    <option value="" data-title="Tất cả Ebook">Tất cả danh mục</option>
-
-                            <option value="1" data-title="Tiểu thuyết">Tiểu thuyết</option>
-                            <option value="2" data-title="Truyện và thơ ca dân gian">Truyện và thơ ca dân gian</option>
-                            <option value="3" data-title="Tự truyện - Hồi ký">Tự truyện - Hồi ký</option>
-                            <option value="4" data-title="Truyện ngắn - Tản văn">Truyện ngắn - Tản văn</option>
-                            <option value="5" data-title="Truyện thiếu nhi">Truyện thiếu nhi</option>
-                            <option value="6" data-title="Truyện trinh thám - Vụ án">Truyện trinh thám - Vụ án</option>
-                            <option value="7" data-title="Phóng sự">Phóng sự</option>
-                            <option value="8" data-title="Phê bình văn học">Phê bình văn học</option>
-                            <option value="9" data-title="Truyện tranh">Truyện tranh</option>
-                            <option value="10" data-title="Mỹ thuật - Âm nhạc">Mỹ thuật - Âm nhạc</option>
-                </select>
-
-            </div>
-        </div>
-
         <!-- Danh sách sách -->
-        <div class="books-grid" id="ebookList" style="position: relative; zoom: 1;" bis_skin_checked="1"><div class="book-card " bis_skin_checked="1">
+        <div class="books-grid" id="ebookList" style="position: relative; zoom: 1;" bis_skin_checked="1">
+            <div class="book-card " bis_skin_checked="1">
                     <div class="book-cover" bis_skin_checked="1">
                         <a href="/chi-tiet-ebook/3" title="Cây cam ngọt">
                             <img src="https://files.368up.com/ebook/546/CayCamNgotCuaToi.jpg       " alt="Cây cam ngọt" class="book-img" style="height: 240px; object-fit: cover;">
@@ -2213,10 +2245,12 @@
                             <button class="btn-save"><i class="far fa-bookmark"></i></button>
                         </div>
                     </div>
-                </div></div>
+                </div>
+            </div>
         <div class="text-center mt-3" bis_skin_checked="1">
             <span id="bookCountStatus" class="text-muted fw-semibold">Đang xem 8 / 100 sách</span>
         </div>
+      </div>
 
         <div class="text-center mt-4" bis_skin_checked="1">
             <button id="loadMoreBtn" class="btn btn-primary" style="display: inline-block;">Xem thêm</button>

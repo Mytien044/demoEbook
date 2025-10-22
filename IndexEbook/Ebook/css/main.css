@@ -21517,3 +21517,126 @@ p.form-messege {
           transform: rotate(90deg); }
   .accordion .card .card-body {
     padding: 0 30px 30px; }
+/* ====== BỐ CỤC CHUNG ====== */
+.books-section {
+  padding: 40px 0;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+/* ====== SIDEBAR ====== */
+.sidebar-wrapper {
+  background-color: #f8f9fa;
+  padding: 18px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 20px;
+}
+
+/* ===== Accordion ===== */
+.accordion-header {
+  width: 100%;
+  background-color: #007bff; /* xanh dương chính */
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 8px;
+  transition: background 0.3s ease;
+}
+
+.accordion-header:hover {
+  background-color: #0056b3; /* xanh dương đậm hơn khi hover */
+}
+
+/* Nội dung accordion */
+.accordion-content {
+  list-style: none;
+  padding: 0 10px;
+  margin: 0 0 10px 0;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+/* Khi mở */
+.accordion-item.active .accordion-content {
+  max-height: 500px;
+  opacity: 1;
+}
+
+/* Liên kết danh mục */
+.accordion-content li {
+  margin: 6px 0;
+}
+
+.accordion-content a {
+  text-decoration: none;
+  color: #333;
+  padding: 4px 8px;
+  display: block;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+/* Hover link */
+.accordion-content a:hover {
+  background-color: #007bff;
+  color: #fff;
+  padding-left: 12px;
+}
+
+/* ====== DANH SÁCH SÁCH ====== */
+.books-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.book-card {
+  flex: 0 0 calc(33.333% - 20px);
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 10px;
+  transition: transform 0.2s;
+}
+
+.book-card:hover {
+  transform: translateY(-4px);
+}
+
+.book-img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+/* ====== RESPONSIVE ====== */
+@media (max-width: 992px) {
+  .book-card {
+    flex: 0 0 calc(50% - 20px);
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar-wrapper {
+    position: static;
+    margin-bottom: 20px;
+  }
+
+  .book-card {
+    flex: 0 0 100%;
+  }
+}
