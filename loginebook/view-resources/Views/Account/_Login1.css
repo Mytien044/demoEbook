@@ -38,20 +38,20 @@ body {
 /* Left Panel */
 .left-panel {
   flex: 1.2;
-  background: linear-gradient(rgba(44, 90, 160, 0.85), rgba(44, 90, 160, 0.9)), 
-              url('https://images.unsplash.com/photo-1589998059171-988d887df646?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80');
+background: linear-gradient(rgba(0, 53, 99, 0.85), rgba(29, 137, 245, 0.85)),
+            url('https://images.unsplash.com/photo-1589998059171-988d887df646?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80');
   background-size: cover;
   background-position: center;
   color: white;
-  padding: 40px;
+  padding: 50px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   position: relative;
 }
 
-.logo-left img {height: 50px; filter: brightness(0) invert(1);}
-.content-left {max-width: 90%;}
+.logo-left img {height: 70px; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.4));}
+.content-left {max-width: 100%; margin-top: 20px; }
 .content-left h1 {font-size: 2.2rem; margin-bottom: 30px; font-weight: 700;}
 
 .features {list-style: none; margin-bottom: 30px;}
@@ -65,9 +65,16 @@ body {
   backdrop-filter: blur(5px);
   transition: var(--transition);
 }
-.features li:nth-child(1) i { color: #007bff; } /* Quản lý Thư viện */
-.features li:nth-child(2) i { color: #28a745; } /* Thư viện số */
-.features li:nth-child(3) i { color: #ff9800; } /* Đánh giá đạt chuẩn */
+.features li:nth-child(1) i { color: #007bff; margin-bottom: 50px; } /* Quản lý Thư viện */
+.features li:nth-child(2) i { color: #28a745; margin-bottom: 30px; } /* Thư viện số */
+.slogan-box {
+  margin-top: 50px;
+  text-align: center;
+  font-style: italic;
+  font-size: 23px;
+  color: #f4f4f4;
+  padding: 1px;
+}
 
 .features li:hover {background: rgba(255, 255, 255, 0.15); transform: translateX(5px);}
 .features i {font-size: 1.5rem; margin-right: 15px; margin-top: 5px; color: var(--accent);}
