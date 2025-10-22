@@ -1,0 +1,9 @@
+{
+  "categories": [
+    { "id": 1, "name": "Tiểu thuyết" },
+    { "id": 2, "name": "Truyện ngắn - Tản văn" },
+    { "id": 3, "name": "Tự truyện - Hồi ký" },
+    { "id": 4, "name": "Truyện thiếu nhi" },
+    { "id": 5, "name": "Truyện trinh thám - Vụ án" }
+  ]
+}

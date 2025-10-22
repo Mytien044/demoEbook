@@ -1,0 +1,19 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\metronic",
+    "\\metronic\\themes",
+    "\\metronic\\themes\\default",
+    "\\metronic\\themes\\default\\css",
+    "\\view-resources",
+    "\\view-resources\\Areas",
+    "\\view-resources\\Areas\\App",
+    "\\view-resources\\Areas\\App\\Views",
+    "\\view-resources\\Areas\\App\\Views\\_Bundles",
+    "\\view-resources\\Views",
+    "\\view-resources\\Views\\Account",
+    "\\view-resources\\Views\\Shared"
+  ],
+  "SelectedNode": "\\account\\login",
+  "PreviewInSolutionExplorer": false
+}
