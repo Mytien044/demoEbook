@@ -21523,6 +21523,7 @@ p.form-messege {
 }
 
 .section-title {
+  white-space: nowrap;
   font-size: 24px;
   font-weight: 700;
   text-transform: uppercase;
@@ -21539,7 +21540,9 @@ p.form-messege {
   position: sticky;
   top: 20px;
 }
-
+.sidebar-dm{
+  white-space: nowrap;
+}
 /* ===== Accordion ===== */
 .accordion-header {
   width: 100%;
